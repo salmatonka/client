@@ -1,0 +1,13 @@
+.about-menu{
+  
+    width: 100%;
+     display: grid;
+     grid-template-columns: repeat(8,0.1fr);
+     gap: 10px;
+ 
+ }
+ .about-menu button{
+   background: linear-gradient(135deg,rgba(236,0,140,1)0%,
+   rgba(252,103,101,1)100% );
+   font-size: 20px;
+ }
