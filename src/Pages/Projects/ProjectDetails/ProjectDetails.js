@@ -1,5 +1,5 @@
 import React from 'react';
-import { useLoaderData} from 'react-router-dom';
+import { Link, useLoaderData} from 'react-router-dom';
 import { FaHtml5 } from 'react-icons/fa';
 import { FaCss3Alt } from 'react-icons/fa';
 import { FaJs } from 'react-icons/fa';
@@ -10,65 +10,92 @@ import { SiTailwindcss } from 'react-icons/si';
 import { FaNode } from 'react-icons/fa';
 import { FaGithub } from 'react-icons/fa';
 import { SiVercel} from 'react-icons/si';
+import './ProjectDetails.css';
 const ProjectDetails = () => {
     const allServices = useLoaderData();
-    const {title,image} = allServices;
+    const {title,details,image2,image3,image4,image5,image6,tool1,tool2,tool3,tool4,tool5,github,live} = allServices;
 
     return (
-       
-        <div className=" text-gray-100 py-24 ">
-	         <div className="container flex flex-col justify-center p-6 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-between">
-		         <div className="flex flex-col justify-center p-6 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
-			         <h1 className="text-3xl font-bold leading-none ">{title}</h1>
-			         <p className="mt-6 mb-8 text-lg sm:mb-12">Dictum aliquam porta in condimentum ac integer</p>
-                        <hr />
-                     <div>
-                        <h3 className='text-2xl'>Tools & Function:</h3>
-                        <div className='grid grid-cols-5 gap-2 py-4 projectIcons '>
+       <div className='py-24 text-gray-100 '>
+         {/*1st site */}
 
-                        <div>
-                            <button className="btn btn-circle"><FaHtml5></FaHtml5></button>
-                        </div>
+               <h3 className='text-4xl font-bold text-center pt-12 '>{title}</h3>
 
-                        <div>
-                         <button className="btn btn-circle"><FaCss3Alt ></FaCss3Alt></button>
-                        </div>
+    
+               <div className='flex align-center justify-center gap-2 pt-4'>
+               <div><button className="btn btn-outline btn-info btn-sm"><a href={live}>Live demo</a></button></div>
+              <div><button className="btn btn-outline btn-info btn-sm "><a href={github}>ClientCode</a></button></div>
+              <div><button className="btn btn-outline btn-info btn-sm"><a href={github}>ServerCode</a></button></div>
 
-                        <div><button className="btn btn-circle"><FaJs></FaJs></button></div>
+               </div>
 
-                       <div><button className="btn btn-circle"><FaReact></FaReact></button></div>
-
-                       <div><button className="btn btn-circle"><DiMongodb></DiMongodb></button></div>
-
-                       <div><button className="btn btn-circle"><SiFirebase></SiFirebase></button></div>
-
-                       <div><button className="btn btn-circle"><SiTailwindcss></SiTailwindcss></button></div>
-
-                       <div><button className="btn btn-circle"><FaNode></FaNode></button></div>
-
-                      <div><button className="btn btn-circle"><FaGithub></FaGithub></button></div>
-
-                      <div><button className="btn btn-circle"><SiVercel></SiVercel></button></div>
-                 </div> 
-                </div>
-                      <hr />
-
-			        <div className='divBtn grid grid-cols-3 gap-2 py-6'>
-
-                        <div> <button type="button" className="px-4 py-3 font-semibold border rounded border-gray-100 text-gray-100">LiveDemo</button></div>
-                        <div> <button type="button" className="px-8 py-3 font-semibold border rounded border-gray-100 text-gray-100">Code</button></div>
-                        <div> <button type="button" className="px-8 py-3 font-semibold border rounded border-gray-100 text-gray-100">Home</button></div>
-                  </div> 
-                  
-                <div>
+         <div className='py-4 flex align-center justify-center '>
+         <div className='mx-1'><button className="btn btn-info btn-sm">{tool1}</button></div>
+               <div ><button className="btn btn-info btn-sm">{tool2}</button></div>
+               <div className='mx-1'><button className="btn btn-info btn-sm">{tool3}</button></div>
+               <div ><button className="btn btn-info btn-sm">{tool4}</button></div>
+               <div className='mx-1 '><button className="btn  btn-info btn-sm">{tool5}</button></div>
+               
             </div>
-	  </div>
-		          <div className="flex items-center justify-center p-6 mt-8 lg:mt-0 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128">
-			    <img src={image} alt="" className="object-contain h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128" />
-		         </div>
-	         </div>
-	      </div>
-	
+           
+             <div>
+                {/* 2nd site */}
+           <div className='grid grid-cols-1 lg:grid-cols-2 gap-10 py-20'>
+               <div className="projectDetailsCard">
+                   <div className='lines'></div>
+                       <div className='icons'>
+                       
+                       <img src={image2} alt="" className=" h-70  sm:h-80 lg:h-full xl:h-112 2xl:h-128 lg:w-full" />
+                       </div>    
+               </div> 
+               <div className="projectDetailsCard">
+                   <div className='lines'></div>
+                       <div className='icons'>
+                       
+                       <img src={image3} alt="" className=" h-70  sm:h-80 lg:h-full xl:h-112 2xl:h-128 lg:w-full" />
+                       </div>    
+               </div> 
+               <div className="projectDetailsCard">
+                   <div className='lines'></div>
+                       <div className='icons'>
+                       
+                       <img src={image4} alt="" className=" h-70  sm:h-80 lg:h-full xl:h-112 2xl:h-128 lg:w-full" />
+                       </div>    
+               </div> 
+               <div className="projectDetailsCard">
+                   <div className='lines'></div>
+                       <div className='icons'>
+                       
+                       <img src={image5} alt="" className=" h-70  sm:h-80 lg:h-full xl:h-112 2xl:h-128 lg:w-full" />
+                       </div>    
+               </div> 
+               <div className="projectDetailsCard">
+                   <div className='lines'></div>
+                       <div className='icons'>
+                       
+                       <img src={image6} alt="" className=" h-70  sm:h-80 lg:h-full xl:h-112 2xl:h-128 lg:w-full" />
+                       </div>    
+               </div> 
+                <div className="projectDetailsCard">
+                   <div className='lines'></div>
+                       <div className='icons'>
+                       
+                       <img src={image5} alt="" className=" h-70  sm:h-80 lg:h-full xl:h-112 2xl:h-128 lg:w-full" />
+                       </div>    
+               </div>  
+            </div>
+
+             {/* 3nd site */}
+              <div className='text-center'>
+              <h3 className='text-3xl font-bold text-center pt-12 pb-6'>Project Details:</h3>
+                <p>{details}</p>
+             </div> 
+             </div> 
+             
+        </div>
+       
+        
+   
 
        
     );

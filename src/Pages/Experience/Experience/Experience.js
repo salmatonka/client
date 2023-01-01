@@ -27,40 +27,40 @@ const Experience = () => {
                                 <div className='iconsBtn grid  grid-cols-6 gap-4'>
                                
                                     <div>
-                                        <button className="btn btn-circle btn-outline text-2xl"><FaHtml5></FaHtml5></button>
+                                        <button className="btn btn-circle btn-info text-2xl"><FaHtml5></FaHtml5></button>
                                     </div>
                                     <div>
-                                        <button className="btn btn-circle btn-outline text-2xl"><FaCss3Alt></FaCss3Alt></button>
+                                        <button className="btn btn-circle btn-info  text-2xl"><FaCss3Alt></FaCss3Alt></button>
                                     </div>
                                     <div>
-                                        <button className="btn btn-circle btn-outline text-2xl"><FaJs></FaJs></button>
+                                        <button className="btn btn-circle btn-info text-2xl"><FaJs></FaJs></button>
                                     </div>
                                     <div>
-                                        <button className="btn btn-circle btn-outline text-2xl"><FaBootstrap></FaBootstrap></button>
+                                        <button className="btn btn-circle btn-info  text-2xl"><FaBootstrap></FaBootstrap></button>
                                      </div>
                                      <div>
-                                        <button className="btn btn-circle btn-outline text-2xl"><SiTailwindcss></SiTailwindcss></button>
+                                        <button className="btn btn-circle btn-info  text-2xl"><SiTailwindcss></SiTailwindcss></button>
                                     </div>
                                     <div>
-                                        <button className="btn btn-circle btn-outline text-2xl"><FaReact></FaReact></button>
+                                        <button className="btn btn-circle btn-info text-2xl"><FaReact></FaReact></button>
                                     </div>
                                     <div>
-                                        <button className="btn btn-circle btn-outline text-2xl"><SiFirebase></SiFirebase></button>
+                                        <button className="btn btn-circle btn-info text-2xl"><SiFirebase></SiFirebase></button>
                                     </div>
                                     <div>
-                                        <button className="btn btn-circle btn-outline text-2xl"><DiMongodb></DiMongodb></button>
+                                        <button className="btn btn-circle btn-info text-2xl"><DiMongodb></DiMongodb></button>
                                     </div>
                                     <div>
-                                        <button className="btn btn-circle btn-outline text-2xl"><FaGithub></FaGithub></button>
+                                        <button className="btn btn-circle btn-info text-2xl"><FaGithub></FaGithub></button>
                                     </div>
                                     <div>
-                                        <button className="btn btn-circle btn-outline text-2xl"><FaGitAlt></FaGitAlt></button>
+                                        <button className="btn btn-circle btn-info text-2xl"><FaGitAlt></FaGitAlt></button>
                                     </div>
                                     <div> 
-                                        <button className="btn btn-circle btn-outline text-2xl"><FaFigma></FaFigma></button>
+                                        <button className="btn btn-circle btn-info text-2xl"><FaFigma></FaFigma></button>
                                     </div>
                                     <div>
-                                        <button className="btn btn-circle btn-outline text-2xl"><SiVercel></SiVercel></button>
+                                        <button className="btn btn-circle btn-info  text-2xl"><SiVercel></SiVercel></button>
                                    </div>
             
                                 </div>

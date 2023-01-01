@@ -30,10 +30,7 @@ const HomeBanner = () => {
 				  <button><a href='https://github.com/salmatonka'><FaGithub></FaGithub></a></button>
                   <button><a href='https://www.facebook.com/'><FaFacebook></FaFacebook></a></button>
 				  <button> <a href='https://www.linkedin.com/in/omme-salma-46708625b/'> <FaLinkedin></FaLinkedin></a></button>
-				  <button> <a href='#'><FaPhoneAlt></FaPhoneAlt></a></button>
-				  <button><a href='#'><MdEmail></MdEmail></a></button>
-                
-                </div>
+		       </div>
 		</div>
 		<div className=" card flex items-center justify-center p-6 mt-8 lg:mt-0 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128 ">
 			<div className='lines'></div>

@@ -12,45 +12,50 @@ import { SiVercel} from 'react-icons/si';
 import '../Projects/Projects.css';
 import { Link } from 'react-router-dom';
 const Card = ({service}) => {
-     const {_id,title,image} = service;
+     const {_id,title,image1,tool1,tool2,tool3,tool4,tool5,github,live} = service;
     return (
-        <div className=' text-gray-100'>
-        {/* <h1 className="text-3xl font-bold leading-none text-center">Project</h1>  */}
-       
-       <div className='grid grid-cols-1 lg:grid-cols-2'>
+        <div className='grid grid-cols-1 lg:grid-cols-2 text-gray-100 py-10 px-10 '>
            {/* left parts */}
-           <div>
-           <div className="experienceCard">
+           
+               <div className="projectCard">
                    <div className='lines'></div>
                        <div className='icons'>
                        
-                       <img src={image} alt="" className=" h-70  sm:h-80 lg:h-full xl:h-112 2xl:h-128 lg:w-full" />
+                       <img src={image1} alt="" className=" h-70  sm:h-80 lg:h-full xl:h-112 2xl:h-128 lg:w-full" />
                        </div>    
-               </div> 
-
-           </div> 
+                </div> 
           
-   {/* right parts */}
-        <div>
-             <div className='flex align-center justify-center'>
-               <div>LiveDemo</div>
-               <div>Code</div>
+           {/* right parts */}
+         <div>
+            <h3  className="text-3xl text-end font-bold leading-none ">{title}</h3>
+            <div className=' pt-4 flex justify-end '>
               
+               <div><button className="btn btn-outline btn-info btn-sm"><a href={live}>Live demo</a></button></div>
+               
 
-              
+               <div><button className="btn btn-outline btn-info btn-sm mx-2"><a href={github}>Github</a></button></div>
+
+               <div><button className="btn btn-outline btn-info btn-sm"><Link to={`/projectDetails/${_id}`}>Details</Link></button></div>
              </div>
+                  
+             <h4 className='text-2xl text-end pt-4'>Uses Technologies</h4>
+            
 
-           <h3  className="text-3xl font-bold leading-none ">{title}</h3>
-            <p><Link to={`/projectDetails/${_id}`}>Details</Link></p>
-            <p>Uses Technologies</p>
-
-            <div className='flex align-center justify-center'>
-               <div><button>tools</button></div>
-               <div><button>tools</button></div>
-               <div><button>tools</button></div>
+             <div className='flex justify-end pt-4 '>
+               
+               <div className='mx-1'><button className="btn btn-info btn-sm">{tool1}</button></div>
+               <div ><button className="btn btn-info btn-sm">{tool2}</button></div>
+               <div className='mx-1'><button className="btn btn-info btn-sm">{tool3}</button></div>
+               <div ><button className="btn btn-info btn-sm">{tool4}</button></div>
+               <div className='mx-1 '><button className="btn  btn-info btn-sm">{tool5}</button></div>
+               
+                
             </div>
+            
+
+            
         </div>
-       </div>
+       
 
 
 
