@@ -43,7 +43,7 @@ const router = createBrowserRouter([
                 path:'/projectDetails/:id',
                 element:<ProjectDetails></ProjectDetails>,
                 loader:({params})=>
-                    fetch(`http://localhost:5000/services/${params.id}`)
+                    fetch(`https://my-portfolio-server-kappa-khaki.vercel.app/services/${params.id}`)
             },
             
             // {

@@ -1,43 +1,15 @@
-import React, { useContext } from 'react';
+import React from 'react';
 
 const Contact = () => {
-    // const{createUser,updateName} = useContext(AuthContex)
-    // const handleEmail = event =>{
-	// 	event.preventDefault();
-	// 	const form = event.target;
-	// 	const name = form.name.value;
-	// 	const email = form.email.value;
-	// 	const message = form.message.value;
-		
-
-	// 	console.log(name,email,message)
-    //     createUser(email)
-	// 	.then(result=> {
-	// 	      const user = result.user;
-	// 	      console.log(user);
-			 
-	// 		  updateName(name)
-    //       .then(() => {
-        // toast.success('Name success')
-
-	// 	 })
-
-		
-    //   }).catch((error) => {
-        // toast.error(error.message)
-
-    //   })
-
-    // .catch(err => console.error(err));
-    // }
+   
 
     return (
         <div className="px-6 py-24 bg-sky-900 text-gray-100">
             <h2 className='text-3xl text-center text-gray-100 font-bold sm:text-4xl py-6'><span className='text'>Contact</span> Me</h2>
           
             <hr />
-        <div className="container grid gap-6 mx-auto text-center lg:grid-cols-2 xl:grid-cols-5">
-      <div className="w-full px-4 py-16 rounded-md sm:px-12 md:px-16 xl:col-span-3 dark:bg-gray-900">
+              <div className="container grid gap-6 mx-auto text-center lg:grid-cols-2 xl:grid-cols-5">
+                <div className="w-full px-4 py-16 rounded-md sm:px-12 md:px-16 xl:col-span-3 dark:bg-gray-900">
                 
                 <form  action="https://formsubmit.co/e1cf56c3589647066652e2f545ac25c8" method="POST" className="self-stretch space-y-3 ng-untouched ng-pristine ng-valid">
                     <div>

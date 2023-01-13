@@ -13,7 +13,7 @@ import { SiVercel} from 'react-icons/si';
 import './ProjectDetails.css';
 const ProjectDetails = () => {
     const allServices = useLoaderData();
-    const {title,details,image2,image3,image4,image5,image6,tool1,tool2,tool3,tool4,tool5,github,live} = allServices;
+    const {title,details,image2,image3,image4,image5,image6,image7,tool1,tool2,tool3,tool4,tool5,clientCode,serverCode,live} = allServices;
 
     return (
        <div className='py-24 text-gray-100 '>
@@ -24,8 +24,8 @@ const ProjectDetails = () => {
     
                <div className='flex align-center justify-center gap-2 pt-4'>
                <div><button className="btn btn-outline btn-info btn-sm"><a href={live}>Live demo</a></button></div>
-              <div><button className="btn btn-outline btn-info btn-sm "><a href={github}>ClientCode</a></button></div>
-              <div><button className="btn btn-outline btn-info btn-sm"><a href={github}>ServerCode</a></button></div>
+              <div><button className="btn btn-outline btn-info btn-sm "><a href={clientCode}>ClientCode</a></button></div>
+              <div><button className="btn btn-outline btn-info btn-sm"><a href={serverCode}>ServerCode</a></button></div>
 
                </div>
 
@@ -80,7 +80,7 @@ const ProjectDetails = () => {
                    <div className='lines'></div>
                        <div className='icons'>
                        
-                       <img src={image5} alt="" className=" h-70  sm:h-80 lg:h-full xl:h-112 2xl:h-128 lg:w-full" />
+                       <img src={image7} alt="" className=" h-70  sm:h-80 lg:h-full xl:h-112 2xl:h-128 lg:w-full" />
                        </div>    
                </div>  
             </div>

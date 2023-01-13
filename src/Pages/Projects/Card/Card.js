@@ -12,7 +12,7 @@ import { SiVercel} from 'react-icons/si';
 import '../Projects/Projects.css';
 import { Link } from 'react-router-dom';
 const Card = ({service}) => {
-     const {_id,title,image1,tool1,tool2,tool3,tool4,tool5,github,live} = service;
+     const {_id,title,image1,tool1,tool2,tool3,tool4,tool5,clientCode,live} = service;
     return (
         <div className='grid grid-cols-1 lg:grid-cols-2 text-gray-100 py-10 px-10 '>
            {/* left parts */}
@@ -33,7 +33,7 @@ const Card = ({service}) => {
                <div><button className="btn btn-outline btn-info btn-sm"><a href={live}>Live demo</a></button></div>
                
 
-               <div><button className="btn btn-outline btn-info btn-sm mx-2"><a href={github}>Github</a></button></div>
+               <div><button className="btn btn-outline btn-info btn-sm mx-2"><a href={clientCode}>Github</a></button></div>
 
                <div><button className="btn btn-outline btn-info btn-sm"><Link to={`/projectDetails/${_id}`}>Details</Link></button></div>
              </div>

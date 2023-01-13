@@ -4,7 +4,7 @@ import Card from '../Card/Card';
 const Projects = () => {
     const [services, setServices] = useState([]);
     useEffect(() =>{
-        fetch ('http://localhost:5000')
+        fetch ('https://my-portfolio-server-kappa-khaki.vercel.app')
         .then(res => res.json())
         .then(data =>setServices(data))
     },[])
