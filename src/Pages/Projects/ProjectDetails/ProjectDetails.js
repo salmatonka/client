@@ -94,10 +94,7 @@ const ProjectDetails = () => {
              
         </div>
        
-        
-   
-
-       
+     
     );
 };
 

@@ -19,7 +19,7 @@ const HomeBanner = () => {
 			</h1>
 			<p className="homeAnima mt-6 mb-8 text-lg sm:mb-12">I'm a web developer. I am from Narsingdi, Bangladesh. I am a Front End developer.I like to do coding in my free time. I am totally confident about myself.</p>
 			<div className="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
-				<a href='https://docs.google.com/document/d/1hAdMY7tKltGKWNBpT1IN0IhKjrh2NXfa/edit?usp=share_link&ouid=105236247118606659868&rtpof=true&sd=true' download='https://docs.google.com/document/d/1hAdMY7tKltGKWNBpT1IN0IhKjrh2NXfa/edit?usp=share_link&ouid=105236247118606659868&rtpof=true&sd=true' rel="noopener noreferrer"  className="btn-outline bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 px-8 py-3 text-lg font-semibold rounded text-gray-100"><FaDownload></FaDownload> Download Resume</a>
+				<a href='https://docs.google.com/document/d/1hAdMY7tKltGKWNBpT1IN0IhKjrh2NXfa/edit?usp=share_link&ouid=105236247118606659868&rtpof=true&sd=true' download='' rel="noopener noreferrer"  className="btn-outline bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 px-8 py-3 text-lg font-semibold rounded text-gray-100"><FaDownload></FaDownload> Download Resume</a>
                 
 				<a rel="noopener noreferrer" href="https://github.com/salmatonka" className=" bg-gradient-to-r from-pink-500 to-yellow-500 hover:from-violet-500 hover:to-pink-500 px-8 py-3 text-lg font-semibold rounded  text-gray-100"><FaGithub></FaGithub>Github Link</a>
 				
