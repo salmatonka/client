@@ -37,7 +37,10 @@ const About = () => {
                         </div>
 
                    <div className="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
-                     <Link rel="noopener noreferrer" href="#" className="btn-outline bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 px-8 py-3 text-lg font-semibold rounded dark:text-gray-900 ">Download Resume</Link>
+                   <a href='https://docs.google.com/document/d/1hAdMY7tKltGKWNBpT1IN0IhKjrh2NXfa/edit?usp=share_link&ouid=105236247118606659868&rtpof=true&sd=true' 
+				download='https://docs.google.com/document/d/1hAdMY7tKltGKWNBpT1IN0IhKjrh2NXfa/edit?usp=share_link&ouid=105236247118606659868&rtpof=true&sd=true'
+				Download Resume
+				rel="noopener noreferrer"  className="btn-outline bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 px-8 py-3 text-lg font-semibold rounded text-gray-100">Download Resume</a> 
                      <Link rel="noopener noreferrer" href="#" className=" bg-gradient-to-r from-pink-500 to-yellow-500 hover:from-violet-500 hover:to-pink-500 px-8 py-3 text-lg font-semibold rounded  dark:text-gray-900">Download CV</Link>
                     </div>
                 </div>

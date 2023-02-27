@@ -5,7 +5,7 @@ import Experience from '../../Experience/Experience/Experience';
 import HomeBanner from '../../HomeBanner/HomeBanner/HomeBanner';
 import Projects from '../../Projects/Projects/Projects';
 import Skills from '../../Skills/Skills/Skills';
-
+import './Home';
 const Home = () => {
     return (
 	    <div>

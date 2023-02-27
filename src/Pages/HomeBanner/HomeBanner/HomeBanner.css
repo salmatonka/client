@@ -12,6 +12,7 @@
   width: 350px;
   height: 290px;
   background: #fff;
+  
   transition:0.5s ;
 }
 
@@ -35,8 +36,9 @@
   width: 600px;
   height: 120px;
   /* background: linear-gradient(transparent,  rgb(240, 208, 30), #ff3c7b,transparent); */
+
   background: linear-gradient(135deg,rgba(236,0,140,1)0%,
-   rgba(252,103,101,1)100% );
+  rgba(252,103,101,1)100% ); 
   animation: animate 5s linear infinite;
 }
 
@@ -53,6 +55,7 @@
   position: absolute;
   inset: 6px;
   background: linear-gradient(#09203F , #537895);
+  
 }
 .card .imgBox{
   position: absolute;
@@ -79,6 +82,7 @@
   width: 500px;
   height: 150px;
   transform: translate(-50%, -50%);
+  
   background: linear-gradient(transparent,  #45f3ff, #45f3ff, #45f3ff ,transparent);
   animation: animate2 6s linear infinite;
   

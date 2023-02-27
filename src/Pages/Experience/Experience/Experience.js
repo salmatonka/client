@@ -17,9 +17,9 @@ import { FaFigma } from 'react-icons/fa';
 import { SiVercel} from 'react-icons/si';
 const Experience = () => {
     return (
-        <div className='py-24 text-gray-100 text-center '>
+        <div className='py-20 px-10 text-gray-100 text-center '>
             <h2 className='text-4xl text-center text-gray-100 font-bold sm:text-4xl pb-24 '>Others<span className='text'>Information</span></h2>
-                <div className='grid lg:grid-cols-2 grid-cols-1'>
+                <div className='grid lg:grid-cols-2 grid-cols-1 '>
                     <div className="experienceCard">
 			            <div className='lines'></div>
                             <div className='icons'>
