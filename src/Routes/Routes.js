@@ -43,7 +43,7 @@ const router = createBrowserRouter([
                 path:'/projectDetails/:id',
                 element:<ProjectDetails></ProjectDetails>,
                 loader:({params})=>
-                    fetch(`https://my-portfolio-server-kappa-khaki.vercel.app/services/${params.id}`)
+                    fetch(`https://portfolio-server-topaz-ten.vercel.app/services/${params.id}`)
             },
             
             // {

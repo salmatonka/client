@@ -61,7 +61,7 @@
 
 /* html ... */
 .skill-bar .bar .html{
-    width: 90%;
+    width: 95%;
     animation: html 3s;
 }
 @keyframes html{
@@ -69,7 +69,7 @@
         width: 0;
     }
     100%{
-        width: 90%;
+        width: 95%;
     }
 }
 /* javascript ... */
@@ -113,7 +113,7 @@
 }
 /* firebase ... */
 .skill-bar .bar .firebase{
-    width: 80%;
+    width: 65%;
     animation: firebase 3s;
 }
 @keyframes firebase{
@@ -121,12 +121,12 @@
         width: 0;
     }
     100%{
-        width: 80%;
+        width: 65%;
     }
 }
 /* nextjs ... */
 .skill-bar .bar .nextjs{
-    width: 70%;
+    width: 50%;
     animation: nextjs 3s;
 }
 @keyframes nextjs{
@@ -134,7 +134,7 @@
         width: 0;
     }
     100%{
-        width: 70%;
+        width: 50%;
     }
 }
 /* vercel ... */
@@ -152,7 +152,7 @@
 }
 /* css ... */
 .skill-bar .bar .css{
-    width: 90%;
+    width: 95%;
     animation: css 3s;
 }
 @keyframes css{
@@ -160,7 +160,7 @@
         width: 0;
     }
     100%{
-        width: 90%;
+        width: 95%;
     }
 }
 /* bootstrap ... */
@@ -179,7 +179,7 @@
 /* react ... */
 .skill-bar .bar .react{
     width: 85%;
-    animation: html 3s;
+    animation: react 3s;
 }
 @keyframes react{
     0%{
@@ -191,7 +191,7 @@
 }
 /* mongodb ... */
 .skill-bar .bar .mongodb{
-    width: 80%;
+    width: 60%;
     animation: mongodb 3s;
 }
 @keyframes mongodb{
@@ -199,12 +199,12 @@
         width: 0;
     }
     100%{
-        width: 80%;
+        width: 60%;
     }
 }
 /* nodejs ... */
 .skill-bar .bar .nodejs{
-    width: 80%;
+    width: 60%;
     animation: nodejs 3s;
 }
 @keyframes nodejs{
@@ -212,7 +212,7 @@
         width: 0;
     }
     100%{
-        width: 80%;
+        width: 60%;
     }
 }
 /* github ... */
@@ -241,3 +241,4 @@
         width: 70%;
     }
 }
+

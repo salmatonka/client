@@ -4,9 +4,7 @@
     box-shadow: 10px;
 }
 .projectIcons button {
-    font-size: 20px;
-   
-   
+  font-size: 20px;
 
 }
 .projectIcons button:hover {
@@ -25,14 +23,12 @@
 }
 .projectCard{
     position: relative;
-    width: 600px;
-    height: 400px;
-    /* background: #fff; */
-    /* background-color: rgba(0, 0, 0, 0.089); */
+    width: 420px;
+    height: 260px;
     transition:0.5s ;
   }
   .projectCard:hover{
-    height: 450px;
+    height: 270px;
   }
   .projectCard .lines{
     position: absolute;
@@ -77,3 +73,13 @@
     left: 10px;
     
   } 
+
+  @media screen and (max-width: 420px) {
+    .projectCard{
+      position: relative;
+      width: 300px;
+      height: 180px;
+      transition:0.5s ;
+      
+    }
+ }

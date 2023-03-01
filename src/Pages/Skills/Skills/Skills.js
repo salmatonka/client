@@ -17,22 +17,14 @@ import '../Skills.css';
                   <div className='skill-bar'>
                      <div className='info'>
                       <p>Html</p>
-                      <p className='percent'>90%</p>
+                      <p className='percent'>95%</p>
                       </div>
                        <div className='bar'>
                         <span className='html'></span>
                        </div>
                     </div>
 
-                    <div className='skill-bar'>
-                     <div className='info'>
-                      <p>Css</p>
-                      <p className='percent'>90%</p>
-                      </div>
-                       <div className='bar'>
-                        <span className='css'></span>
-                       </div>
-                    </div>
+                    
 
                   <div className='skill-bar'>
                      <div className='info'>
@@ -46,14 +38,15 @@ import '../Skills.css';
 
                     <div className='skill-bar'>
                      <div className='info'>
-                      <p>Bootstrap</p>
-                      <p className='percent'>90%</p>
+                      <p>Css</p>
+                      <p className='percent'>95%</p>
                       </div>
                        <div className='bar'>
-                        <span className='bootstrap'></span>
+                        <span className='css'></span>
                        </div>
-
                     </div>
+
+                    
                   <div className='skill-bar'>
                      <div className='info'>
                       <p>Tailwind</p>
@@ -64,10 +57,21 @@ import '../Skills.css';
                        </div>
                     </div>
 
+                    <div className='skill-bar'>
+                     <div className='info'>
+                      <p>Bootstrap</p>
+                      <p className='percent'>90%</p>
+                      </div>
+                       <div className='bar'>
+                        <span className='bootstrap'></span>
+                       </div>
+
+                    </div>
+
                   <div className='skill-bar'>
                      <div className='info'>
                       <p>react</p>
-                      <p className='percent'>80%</p>
+                      <p className='percent'>75%</p>
                       </div>
                        <div className='bar'>
                         <span className='react'></span>
@@ -87,7 +91,7 @@ import '../Skills.css';
                   <div className='skill-bar'>
                      <div className='info'>
                       <p>Mongodb</p>
-                      <p className='percent'>80%</p>
+                      <p className='percent'>60%</p>
                       </div>
                        <div className='bar'>
                         <span className='mongodb'></span>
@@ -97,7 +101,7 @@ import '../Skills.css';
                     <div className='skill-bar'>
                      <div className='info'>
                       <p>Firebase</p>
-                      <p className='percent'>80%</p>
+                      <p className='percent'>65%</p>
                       </div>
                        <div className='bar'>
                         <span className='firebase'></span>
@@ -107,7 +111,7 @@ import '../Skills.css';
                   <div className='skill-bar'>
                      <div className='info'>
                       <p>Node JS</p>
-                      <p className='percent'>80%</p>
+                      <p className='percent'>60%</p>
                       </div>
                        <div className='bar'>
                         <span className='nodejs'></span>
@@ -117,7 +121,7 @@ import '../Skills.css';
                   <div className='skill-bar'>
                      <div className='info'>
                       <p>Next JS</p>
-                      <p className='percent'>70%</p>
+                      <p className='percent'>50%</p>
                       </div>
                        <div className='bar'>
                         <span className='nextjs'></span>

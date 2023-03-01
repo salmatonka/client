@@ -9,15 +9,15 @@
 }
 .card{
   position: relative;
-  width: 350px;
-  height: 290px;
+  width: 330px;
+  height: 240px;
   background: #fff;
-  
   transition:0.5s ;
+  margin-top: 40px;
 }
 
 .card:hover{
-  height: 350px;
+  height: 300px;
 }
 .card .lines{
   position: absolute;
@@ -65,7 +65,7 @@
   width: 250px;
   height: 250px;
   /* background: #000; */
-
+  
   transition: 0.5s;
   z-index: 10;
   overflow: hidden;
@@ -127,4 +127,13 @@
     }
   }
 
-  /* object-contain  */
+ 
+@media screen and (max-width: 420px) {
+  .card{
+   
+    width: 200px;
+    height: 180px;
+    
+  }
+ }
+  

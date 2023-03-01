@@ -8,7 +8,7 @@ import Skills from '../../Skills/Skills/Skills';
 import './Home';
 const Home = () => {
     return (
-	    <div>
+	    <div className='mx-auto md:max-w-[1240px] sm:max-w-[420px]'>
          <HomeBanner></HomeBanner> 
          <Skills></Skills>
          <Projects></Projects>

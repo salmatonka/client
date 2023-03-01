@@ -5,7 +5,7 @@ import img from '../../../assets/image/Snapchat-815282604.jpg'
 const About = () => {
     return (
         
-        <div className="home py-24 px-20 text-gray-100">
+        <div className="home pt-24 pb-10 px-20 text-gray-100">
            <div className="container flex flex-col justify-center p-6 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-around">
              <div className="card flex items-center justify-center p-6 mt-8 lg:mt-0 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128 bg-gray-100">
              
@@ -15,7 +15,7 @@ const About = () => {
                    </div>
                 </div>
                 <div className="flex flex-col justify-center p-6 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
-                  <p className="text-4xl font-bold sm:text-4xl "> <span className='text'>About</span>  Me</p>
+                  <p className="text-4xl font-bold sm:text-4xl"> <span className='text'>About</span>  Me</p>
                   <p className="homeAnima mt-4 text-lg sm:mb-12">I am Salma. I am from Narsingdi, Bangladesh. I am a Front End developer.I like to do coding in my free time. I am totally confident about myself.</p>
                      <hr className='pb-4 text'/>
                     

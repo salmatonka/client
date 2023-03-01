@@ -19,19 +19,19 @@ const ProjectDetails = () => {
         <div className='py-24 text-gray-100 '>
             {/*1st site */}
 
-            <h3 className='text-4xl font-bold text-center pt-12 '>{title}</h3>
+            <h3 className='text-3xl font-bold text-center pt-12 '>{title}</h3>
 
 
-            <div className='flex align-center justify-center gap-2 pt-4'>
+            <div className='ptDetail flex align-center justify-center gap-2 pt-4 '>
                 <div><button className="btn btn-outline btn-info btn-sm"><a href={live}>Live demo</a></button></div>
                 <div><button className="btn btn-outline btn-info btn-sm "><a href={clientCode}>ClientCode</a></button></div>
                 <div><button className="btn btn-outline btn-info btn-sm"><a href={serverCode}>ServerCode</a></button></div>
 
             </div>
 
-            <div className='py-4 flex align-center justify-center '>
-                <div className='mx-1'><button className="btn btn-info btn-sm">{tool1}</button></div>
-                <div ><button className="btn btn-info btn-sm">{tool2}</button></div>
+            <div className='ptDetailBtn py-4  flex align-center justify-center '>
+                <div className='mx-1'><button className="btn btn-info btn-sm ">{tool1}</button></div>
+                <div ><button className="btn btn-info btn-sm ">{tool2}</button></div>
                 <div className='mx-1'><button className="btn btn-info btn-sm">{tool3}</button></div>
                 <div ><button className="btn btn-info btn-sm">{tool4}</button></div>
                 <div className='mx-1 '><button className="btn  btn-info btn-sm">{tool5}</button></div>
@@ -40,47 +40,47 @@ const ProjectDetails = () => {
 
             <div>
                 {/* 2nd site */}
-                <div className='grid grid-cols-1 lg:grid-cols-2 gap-10 py-20'>
+                <div className='py-14 flex flex-wrap gap-14 justify-center'>
                     <div className="projectDetailsCard">
                         <div className='lines'></div>
                         <div className='icons'>
 
-                            <img src={image2} alt="" className=" h-70 sm:h-80 lg:h-full xl:h-112 2xl:h-128 lg:w-full" />
+                            <img src={image2} alt="" className=" h-40 w-80  lg:h-full  lg:w-full sm:w-full md:h-60" />
                         </div>
                     </div>
                     <div className="projectDetailsCard">
                         <div className='lines'></div>
                         <div className='icons'>
 
-                            <img src={image3} alt="" className=" h-70  sm:h-80 lg:h-full xl:h-112 2xl:h-128 lg:w-full" />
+                            <img src={image3} alt="" className=" h-40 w-80  lg:h-full xl:h-112 2xl:h-128 lg:w-full sm:w-full md:h-60" />
                         </div>
                     </div>
                     <div className="projectDetailsCard">
                         <div className='lines'></div>
                         <div className='icons'>
 
-                            <img src={image4} alt="" className=" h-70  sm:h-80 lg:h-full xl:h-112 2xl:h-128 lg:w-full" />
+                            <img src={image4} alt="" className=" h-40 w-80  lg:h-full xl:h-112 2xl:h-128 lg:w-full sm:w-full md:h-60" />
                         </div>
                     </div>
                     <div className="projectDetailsCard">
                         <div className='lines'></div>
                         <div className='icons'>
 
-                            <img src={image5} alt="" className=" h-70  sm:h-80 lg:h-full xl:h-112 2xl:h-128 lg:w-full" />
+                            <img src={image5} alt="" className=" h-40 w-80  lg:h-full xl:h-112 2xl:h-128 lg:w-full sm:w-full md:h-60" />
                         </div>
                     </div>
                     <div className="projectDetailsCard">
                         <div className='lines'></div>
                         <div className='icons'>
 
-                            <img src={image6} alt="" className=" h-70  sm:h-80 lg:h-full xl:h-112 2xl:h-128 lg:w-full" />
+                            <img src={image6} alt="" className=" h-40 w-80  lg:h-full xl:h-112 2xl:h-128 lg:w-full sm:w-full md:h-60" />
                         </div>
                     </div>
                     <div className="projectDetailsCard">
                         <div className='lines'></div>
                         <div className='icons'>
 
-                            <img src={image7} alt="" className=" h-70  sm:h-80 lg:h-full xl:h-112 2xl:h-128 lg:w-full" />
+                            <img src={image7} alt="" className=" h-40 w-80  lg:h-full xl:h-112 2xl:h-128 lg:w-full sm:w-full md:h-60" />
                         </div>
                     </div>
                 </div>

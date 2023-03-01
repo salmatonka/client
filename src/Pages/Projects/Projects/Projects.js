@@ -4,15 +4,16 @@ import Card from '../Card/Card';
 const Projects = () => {
     const [services, setServices] = useState([]);
     useEffect(() =>{
-        fetch ('https://my-portfolio-server-kappa-khaki.vercel.app')
+        fetch ('https://portfolio-server-topaz-ten.vercel.app')
         .then(res => res.json())
         .then(data =>setServices(data))
     },[])
     return (
-        <div className='py-10'>
-            <h2 className=" py-14 text-4xl font-bold  text-center text-gray-100">Some of My Projects</h2>
-          <div>
-          <div className='py-15 grid grid-cols-1 gap-4 '>
+       
+     <div className="pt-24">
+       <h2 className=" pb-10 lg:text-4xl text-3xl font-bold  text-center text-gray-100">Some of My Projects</h2>
+     
+          <div className='py-15  flex flex-wrap gap-14 justify-center'>
             
             {
                 services.map(service =><Card
@@ -23,9 +24,7 @@ const Projects = () => {
                 )
             }
            </div>
-          </div>
-
-        </div>
+           </div>
     );
 };
 
