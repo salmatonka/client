@@ -1,0 +1,104 @@
+[
+    {
+        "title":"Fashion House",
+        "image":"https://i.ibb.co/4gqDZ35/screencapture-timely-melba-4eb98e-netlify-app-2023-03-01-20-06-33.png",
+        
+    
+       "details":"Fashion House is a multi-page website. If you click see all in the category, there are details in the category products. Details have to click on the products and as you can see that we have a complete details of a specific.Technology: HTML, CSS, JAVASCRIPT ,Full Responsive Website.",
+        "tool1":"HTML",
+        "tool2":"CSS",
+        "tool3":"ExpressJs",
+        "tool4":"MongoDB",
+        "tool5":"Firebase",
+        "tool6":"Netlify",
+        
+        "live":"https://timely-melba-4eb98e.netlify.app"
+       
+    },
+    {
+        "title":"ST Booking.Com",
+        "image":"https://i.ibb.co/3yDsPQY/screencapture-localhost-3000-2023-01-13-23-35-24.png",
+        
+        "details":"User books hotel(backend useing) In here user add reviews.Here use React router.",
+        "tool1":"HTML",
+        "tool2":"CSS",
+        "tool3":"JavaScript",
+        "tool5":"React Icons",
+        "tool6":"Netlify",
+        "live":"https://regal-dusk-aee0fb.netlify.app"
+        
+    },
+    {
+        "title":"GlassDoor",
+        "image":"https://i.ibb.co/2MV3PXd/screencapture-jovial-churros-b9b99f-netlify-app-2023-03-01-21-42-05.png",
+        
+        
+        "details":"Authentication system.Admin manage everything!In here user add reviews.",
+        "tool1":"Redux",
+        "tool2":"Tailwind CSS",
+        "tool3":"ExpressJs",
+        "tool4":"MongoDB",
+        "tool5":"Firebase",
+        "tool6":"Vercel",
+        "tool7":"Netlify",
+        "live":""
+        
+    },
+    {
+    
+        "title":"Choose Your Favourite Five Players",
+        "image":"https://i.ibb.co/16vyV2c/screencapture-guileless-malabi-0f245c-netlify-app-2023-03-01-20-17-29.png",
+        
+       "details":"HTML,CSS,JAVASCRIPT is used in this project. You can't select more then five players. And you can calculate the total budget.",
+        "tool1":"HTML",
+        "tool2":"CSS",
+        "tool3":"Netlify",
+        "live":"https://guileless-malabi-0f245c.netlify.app"
+        
+    },
+    {
+
+        "title":"",
+        "image":"",
+
+       "details":"",
+        "tool1":"",
+        "tool2":"",
+        "tool3":"",
+        "live":""
+    },
+    {
+
+        "title":"",
+        "image":"",
+
+       "details":"",
+        "tool1":"",
+        "tool2":"",
+        "tool3":"",
+        "live":""
+    },
+    {
+
+        "title":"",
+        "image":"",
+
+       "details":"",
+        "tool1":"",
+        "tool2":"",
+        "tool3":"",
+        "live":""
+    },
+    {
+
+        "title":"",
+        "image":"",
+
+       "details":"",
+        "tool1":"",
+        "tool2":"",
+        "tool3":"",
+        "live":""
+        
+    }
+]

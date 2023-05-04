@@ -70,8 +70,8 @@ import '../Skills.css';
 
                   <div className='skill-bar'>
                      <div className='info'>
-                      <p>react</p>
-                      <p className='percent'>75%</p>
+                      <p>react.js</p>
+                      <p className='percent'>80%</p>
                       </div>
                        <div className='bar'>
                         <span className='react'></span>
@@ -80,7 +80,7 @@ import '../Skills.css';
 
                     <div className='skill-bar'>
                      <div className='info'>
-                      <p>MaterialUi</p>
+                      <p>Material Ui</p>
                       <p className='percent'>70%</p>
                       </div>
                        <div className='bar'>
@@ -149,7 +149,7 @@ import '../Skills.css';
                   <div className='skill-bar'>
                      <div className='info'>
                       <p>Figma</p>
-                      <p className='percent'>70%</p>
+                      <p className='percent'>50%</p>
                       </div>
                        <div className='bar'>
                         <span className='figma'></span>

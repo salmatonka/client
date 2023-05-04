@@ -12,6 +12,7 @@ import Home from '../Pages/Home/Home/Home';
 import ProjectDetails from '../Pages/Projects/ProjectDetails/ProjectDetails';
 import Projects from '../Pages/Projects/Projects/Projects';
 import Skills from '../Pages/Skills/Skills/Skills';
+import SomeProjects from '../Pages/Projects/SomeProjects/SomeProjects';
 
 
 const router = createBrowserRouter([
@@ -36,7 +37,11 @@ const router = createBrowserRouter([
             },
             
             {
-                path:'/Projects',
+                path:'/someProjects',
+                element:<SomeProjects></SomeProjects>
+            },
+            {
+                path:'/projects',
                 element:<Projects></Projects>
             },
             {
@@ -45,11 +50,6 @@ const router = createBrowserRouter([
                 loader:({params})=>
                     fetch(`https://portfolio-server-topaz-ten.vercel.app/services/${params.id}`)
             },
-            
-            // {
-            //     path:'/Experience',
-            //     element:<Experience></Experience> 
-            // },
            {
                 path:'/about',
                 element:<About></About> 
@@ -58,8 +58,7 @@ const router = createBrowserRouter([
            {
                 path:'/blog',
                 element:<Blog></Blog>
-            },
-           
+            }, 
            {
                 path:'/contact',
                 element:<Contact></Contact>

@@ -102,6 +102,7 @@
   background: linear-gradient(#09203F , #537895);
 }
 .card .imgBox img{
+  
   position: absolute;
   z-index: 2;
   width: calc(100% - 20px);

@@ -23,7 +23,7 @@
 }
 .projectCard{
     position: relative;
-    width: 420px;
+    width: 320px;
     height: 260px;
     transition:0.5s ;
   }
@@ -77,7 +77,7 @@
   @media screen and (max-width: 420px) {
     .projectCard{
       position: relative;
-      width: 300px;
+      width: 280px;
       height: 180px;
       transition:0.5s ;
       
