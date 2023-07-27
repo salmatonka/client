@@ -13,6 +13,7 @@ import ProjectDetails from '../Pages/Projects/ProjectDetails/ProjectDetails';
 import Projects from '../Pages/Projects/Projects/Projects';
 import Skills from '../Pages/Skills/Skills/Skills';
 import SomeProjects from '../Pages/Projects/SomeProjects/SomeProjects';
+import Services from '../Pages/Services/Services/Services';
 
 
 const router = createBrowserRouter([
@@ -49,6 +50,10 @@ const router = createBrowserRouter([
                 element:<ProjectDetails></ProjectDetails>,
                 loader:({params})=>
                     fetch(`https://portfolio-server-topaz-ten.vercel.app/services/${params.id}`)
+            },
+           {
+                path:'/services',
+                element:<Services></Services> 
             },
            {
                 path:'/about',

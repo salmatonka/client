@@ -13,7 +13,7 @@ const HomeBanner = () => {
     return (
 
 <section className="pt-24 home px-20 text-gray-100">
-<div className="container flex flex-col justify-center p-6 mx-auto sm:py-12 lg:pt-12 lg:flex-row lg:justify-around">
+<div className="container flex flex-col justify-center lg:p-6 mx-auto sm:py-12 lg:pt-12 lg:flex-row lg:justify-around">
 	<div className="flex flex-col justify-center p-6 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
 		<h1 className="homeAnima  text-5xl font-bold sm:text-4xl ">Hi
 			<h1 className="homeAnima"> I'm <span className='text'>Salma</span> </h1>
@@ -52,11 +52,9 @@ const HomeBanner = () => {
 			   
 			  
 		   </div>
-		   
-
-
+		 
 	</div>
-	<div className=" card  flex items-center justify-center p-6 mt-8 lg:mt-0 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128 ">
+	<div className=" card  flex items-center justify-center lg:p-6   mt-8 lg:mt-0 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128 ">
 		<div className='lines'></div>
 		<div className='imgBox'>
 

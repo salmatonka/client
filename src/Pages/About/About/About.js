@@ -26,7 +26,7 @@ const About = () => {
                           <h3 className=' text-2xl font-bold py-4'>PERSONAL <span className='text'> INFORMATION</span></h3>
                            <p className=' text-1xl'>Name: Umme Salma</p>
                            <p className=' text-1xl'>Address: Narsingdi,Dhaka Bangladesh</p>
-                           <p className=' text-1xl'>Email: ommes918@gmail.com</p>
+                           <p className=' text-1xl'>Email: ommesalma858@gmail.com</p>
                         </div> 
                        <hr className='mt-4 '/>
                             <div className="py-4">
@@ -37,7 +37,7 @@ const About = () => {
                             <hr className='mt-4 '/>
                     
                             <p className=' text-1xl pt-4'>Completed Projects: 25+</p>
-                            <p className=' text-1xl'>Year Experience: 1 Year</p>
+                            <p className=' text-1xl'>Year Experience: 1+ Year</p>
                        
 
                             </div>

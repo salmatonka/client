@@ -57,7 +57,7 @@ const Experience = () => {
                                         <button className="btn btn-circle btn-info text-2xl"><FaFigma></FaFigma></button>
                                     </div>
                                     <div>
-                                        <button className="btn btn-circle btn-info  text-2xl"><SiVercel></SiVercel></button>
+                                        <button className="btn btn-info  text-2xl"><SiVercel></SiVercel></button>
                                    </div>
             
                                 </div>

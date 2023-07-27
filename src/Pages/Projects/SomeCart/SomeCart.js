@@ -16,9 +16,8 @@ const SomeCart = (props) => {
     const { title, image, details, tool1, tool2, tool3, tool4, tool5, live } = props.product;
     console.log(props.product)
     return (
-        <div className='some-cart'>
-
-            <div>
+        <div className='some-cart hover:bg-sky-700'>
+           <div>
                 <img src={image} alt="" className=" h-40 w-80  lg:h-full  lg:w-full sm:w-full md:h-60" />
             </div>
 
@@ -31,52 +30,8 @@ const SomeCart = (props) => {
                 </div>
                 <h5 className='py-6 pl-4 '>DETAILS: <small>{details}</small> </h5>
             </div>
-
-
-
-            {/* <div className='py-24 text-gray-100 '>
-            {/*1st site */}
-
-            {/* <h3 className='text-3xl font-bold text-center pt-12 '>{title}</h3>
-
-
-            <div className='ptDetail flex align-center justify-center gap-2 pt-4 '>
-                <div><button className="btn btn-outline btn-info btn-sm"><a href={live}>Live demo</a></button></div>
-                
-            </div> */}
-
-            {/* <div className='ptDetailBtn py-4  flex align-center justify-center '>
-                <div className='mx-1'><button className="btn btn-info btn-sm ">{tool1}</button></div>
-                <div ><button className="btn btn-info btn-sm ">{tool2}</button></div>
-                <div className='mx-1'><button className="btn btn-info btn-sm">{tool3}</button></div>
-                <div ><button className="btn btn-info btn-sm">{tool4}</button></div>
-                <div className='mx-1 '><button className="btn  btn-info btn-sm">{tool5}</button></div>
-
-            </div>
-
-            <div>
-                {/* 2nd site */}
-            {/* <div className='py-14 flex flex-wrap gap-14 justify-center'>
-                    <div className="projectDetailsCard">
-                        <div className='lines'></div>
-                        <div className='icons'>
-
-                            <img src={image} alt="" className=" h-40 w-80  lg:h-full  lg:w-full sm:w-full md:h-60" />
-                        </div>
-                    </div>
-                   
-                </div> */}
-
-            {/* 3nd site */}
-            {/* <div className='text-center'>
-                    <h3 className='text-3xl font-bold text-center pt-12 pb-6'>Project Details:</h3>
-                    <p>{details}</p>
-                </div>
-            </div> */}
-
-            {/* </div> */}
-
-        </div>
+           </div>
+        
     );
 };
 

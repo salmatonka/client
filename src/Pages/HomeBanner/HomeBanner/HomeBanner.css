@@ -129,12 +129,12 @@
   }
 
  
-@media screen and (max-width: 420px) {
+ @media screen and (max-width: 420px) {
   .card{
-   
-    width: 200px;
+    width: 180px;
     height: 180px;
-    
+   
   }
- }
+ 
+ } 
   
