@@ -18,7 +18,8 @@ const Home = () => {
         // </div>
 
         <div>
-            
+            <HomeBanner />
+            <Skills />
         </div>
     );
 };

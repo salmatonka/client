@@ -8,8 +8,8 @@ body {
   /* min-width: 100%; 
   min-height: 100vh; */
   
-     background: linear-gradient(#09203F , #537895); 
-    
+     /* background: linear-gradient(#09203F , #537895);  */
+    background: #000;
   
 
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
